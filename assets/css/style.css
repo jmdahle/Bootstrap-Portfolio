@@ -9,13 +9,18 @@ main {
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20pt;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#nav-section {
+    float: right;
 }
 
 #title-section {
     color: #ffffff;
     background-color: #4aaaa5;
     padding: 15px;
-    width: 200px;
 }
 
 #body-section {
