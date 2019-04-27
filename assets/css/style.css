@@ -8,4 +8,25 @@ main {
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+
+#title-section {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 15px;
+    width: 200px;
+}
+
+#body-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+footer {
+    background-color: #666666;
+    color: #dddddd;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    font-size: 10pt;
 }
