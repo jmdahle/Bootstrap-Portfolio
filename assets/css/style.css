@@ -1,4 +1,7 @@
 
+* {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 main {
     /* margin: 0px; */
     background-image: url('../images/circuit.png');
@@ -12,22 +15,17 @@ h1 {
     font-weight: bold;
     margin: 0px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
 }
 
 p, ul {
     line-height: 170%;
 }
-/* 
-#nav-section {
-    float: right;
-} */
 
 #title-section {
     color: #ffffff;
     background-color: #4aaaa5;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px;
 }
 
 #body-title {
