@@ -43,3 +43,13 @@ footer {
     text-align: center;
     font-size: 10pt;
 }
+
+.btn-color4aaaa5 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.btn-color4aaaa5:hover {
+    background-color: #2a8a85;
+    color: #ffffff;
+}
