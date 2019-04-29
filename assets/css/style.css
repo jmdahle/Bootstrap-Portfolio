@@ -3,7 +3,7 @@ main {
     /* margin: 0px; */
     background-image: url('../images/circuit.png');
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 h1 {
@@ -11,18 +11,28 @@ h1 {
     font-size: 20pt;
     font-weight: bold;
     margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
+p, ul {
+    line-height: 170%;
+}
+/* 
 #nav-section {
     float: right;
-}
+} */
 
 #title-section {
     color: #ffffff;
     background-color: #4aaaa5;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+#body-title {
+    color: #4aaaa5;
+}
 #body-section {
     margin-top: 30px;
     margin-bottom: 30px;
