@@ -9,13 +9,16 @@ main {
     /* border: 1px solid red; */
 }
 
-h1 {
+h1, .portbtn {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20pt;
-    font-weight: bold;
     margin: 0px;
     padding-top: 15px;
     /* padding-bottom: 15px; */
+}
+
+h1 {
+    font-weight: bold;
 }
 
 p, ul {
@@ -52,4 +55,25 @@ footer {
 .btn-color4aaaa5:hover {
     background-color: #2a8a85;
     color: #ffffff;
+}
+
+.but-n {    
+    display:inline-block;
+    position:relative;
+}
+
+.portbtn {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    background-color: #4aaaa5;
+    color: #ffffff;                 
+    padding: 5%;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.portbtn:hover {
+    background-color: #ffffff;
+    color: #4aaaa5;
 }
