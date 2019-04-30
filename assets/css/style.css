@@ -2,9 +2,19 @@
 * {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+body {
+    background-image: url('../images/circuit.png');
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;    
+}
+
 main {
     /* margin: 0px; */
-    background-image: url('../images/circuit.png');
+    /* background-image: url('../images/circuit.png'); */
     width: 100%;
     /* border: 1px solid red; */
 }
